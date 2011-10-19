@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+.body
+{
+	min-height:100%;
+}
+.topmenu
+{
+	padding-top:2px;
+	background-color:Silver;
+	height:28px;	
+	
+}
+.topcontent
+{
+	
+}
+.topControl
+{
+	float:left;
+}
+#bt_action
+{
+	display:none;
+}
+.content
+{
+	position:absolute;
+	bottom:0px;
+	top:28px;
+	width:100%;
+}
+
+.maincontent
+{
+	position:relative;
+	top:0px;
+	bottom:0px;
+}
+.leftmenu
+{
+	float:left;
+	height:100%;
+	width:20%;
+	overflow-y: auto;
+	background-color:Black;
+}
+img.thumb
+{
+	cursor:pointer;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:140px;
+	width:140px;
+}
+.main
+{
+	position:relative;	
+	height:100%;
+	margin-left:20%;
+	overflow-y: auto;
+	width:80%;
+	font-size:small;
+}
+.messages
+{
+	
+}
+.rightmenu
+{
+	float:right;
+	height:100%;
+	background-color:Blue;
+}
+
+a.userLink
+{
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+}
+.image
+{
+	position:relative;
+}
+.photo
+{
+	position:absolute;
+	background-image:url('images/i32.png');
+	left: 0px;
+    top: 46px;
+	width:32px;
+	height:32px;
+}
+.video
+{
+	position:absolute;
+	background-image:url('images/v32.png');
+	left: 0px;
+    top: 46px;
+	width:32px;
+	height:32px;
+}
